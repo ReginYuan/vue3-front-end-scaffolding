@@ -32,7 +32,7 @@ function getChildernRoutes(layoutRoutes: RouteRecordRaw) {
         // 如果包含布局路由就可以进行拼接路由并返回所在路由下的子路由
         if (file.includes(`../views/${layoutRoutes.name as string}`)) {
             const route = getRouteByModule(file, module as { [key: string]: any });
-            console.log('route', route)
+            routes.push(route);
         }
     });
     return routes;

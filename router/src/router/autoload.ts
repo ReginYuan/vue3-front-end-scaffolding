@@ -56,4 +56,5 @@ function getRouteByModule(file: string, module: { [key: string]: any }) {
     // 如果页面有自定义路由就进行合并
     return Object.assign(route, module.default?.route);
 }
+
 export default getRoutes();

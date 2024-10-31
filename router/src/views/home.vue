@@ -1,6 +1,6 @@
 <template>
     <div>
-        home.vue
+        网站主页
     </div>
 </template>
 

@@ -1,9 +1,16 @@
 import { App } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
-import routes from './modues/routes';
+// 路由
+import routes from './routes';
+// 引入自动注册路由
+import layoutRoutes from './autoload';
+
 const router = createRouter({
     history: createWebHistory(),
-    routes
+    routes:[
+        ...routes,
+        ...layoutRoutes
+    ]
 });
 
 // 自定义路由方法

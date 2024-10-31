@@ -1,5 +1,5 @@
 <template>
-layouts\member.vue
+<div>member\mail.vue</div>
 </template>
 
 <script setup lang="ts">

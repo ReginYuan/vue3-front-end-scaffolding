@@ -1,5 +1,5 @@
 <template>
-layouts\member.vue
+admin\order.vue
 </template>
 
 <script setup lang="ts">

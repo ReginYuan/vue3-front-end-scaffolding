@@ -1,5 +1,5 @@
 <template>
-layouts\member.vue
+admin\live.vue
 </template>
 
 <script setup lang="ts">

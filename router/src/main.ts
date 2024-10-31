@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import router, { setupRuter } from './router/index';
-import './style.css';
+// import './style.css';
 
 
 // 项目初始化方法
